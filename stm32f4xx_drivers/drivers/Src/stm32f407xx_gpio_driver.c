@@ -10,6 +10,28 @@
 
 void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx,uint8_t EnorDi ){
 
+	if(EnorDi == ENABLE){
+
+		if(pGPIOx == GPIOA){
+			GPIOA_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOB_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOC_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOD_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOE_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOF_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOG_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOH_PCLK_EN();
+		}else if(pGPIOx == GPIOB){
+			GPIOI_PCLK_EN();
+		}
+	}
 }
 
 void GPIO_Init(GPIO_Handle_t *pGPIOHandle);
