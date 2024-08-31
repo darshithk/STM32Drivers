@@ -16,19 +16,19 @@ void GPIO_PeriClockControl(GPIO_RegDef_t *pGPIOx,uint8_t EnorDi ){
 			GPIOA_PCLK_EN();
 		}else if(pGPIOx == GPIOB){
 			GPIOB_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOC){
 			GPIOC_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOD){
 			GPIOD_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOE){
 			GPIOE_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOF){
 			GPIOF_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOG){
 			GPIOG_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOH){
 			GPIOH_PCLK_EN();
-		}else if(pGPIOx == GPIOB){
+		}else if(pGPIOx == GPIOI){
 			GPIOI_PCLK_EN();
 		}
 	}
